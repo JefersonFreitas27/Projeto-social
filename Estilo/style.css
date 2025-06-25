@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,5 +40,26 @@ iframe#tela{
     left: 21px;
     width: 265px;
     height: 468px;
+    
+}
+
+#redes-sociais{
+    text-align: right;
+
+}
+#redes-sociais img:hover{
+    border: 2px solid white;
+    box-sizing: border-box;
+    transform: translate(-2px,-2px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.462);
+    transition: transform 0.3s, border 0s;
+    
+}
+
+#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.629);
     
 }
